@@ -39,7 +39,7 @@ dependencies = [
     # for every tz-aware timestamp) and materialises rows without a Scalar
     # per element; 25.0.0 lacks the latter and has a mimalloc exit crash.
     "pyarrow>=25.0.1",
-    "aiosqlite>=0.20.0",          # Async SQLite driver (used by SA async engine)
+    "aiosqlite>=0.22.1",          # Async SQLite driver (used by SA async engine)
     "sqlmodel>=0.0.22",           # ORM (Pydantic + SQLAlchemy 2.0 async)
     "alembic>=1.13.0",            # SQLite schema migrations
     "greenlet>=3.0",              # Required by SQLAlchemy async
